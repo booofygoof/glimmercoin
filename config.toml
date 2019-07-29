@@ -1,0 +1,57 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.example.com/"
+languageCode = "en-AU"
+title = "Glimmer"
+
+# Metadata
+[params]
+  author = "Your name"
+  description = "Cool description"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "/images/hero_bg.jpg"
+  title = "Glimmer"
+  description = "A secure, yet simple cryptocurrency"
+
+# Navigation section
+[params.nav]
+  services = "Why Glimmer"
+  contact = "Dive in"
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = ""
+  title = "Why Glimmer"
+  description = "Glimmer aims to be secure, and simple at the same time. As a user of Glimmer you should be able to understand where your money is, and how it's being processed at each step of the way."
+
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Easy to understand"
+    description = "With less than 1,00 lines of code. Glimmer's small core can be read, and understood quickly. Allowing for more maintainers and a better community"
+
+  [[params.services.item]]
+    icon = "icon-lock"
+    title = "Secure"
+    description = "Even though Glimmer is a simple implementation of a cryptocurrency, it's small core is easy to maintain. With many people able to understand it's codebase, bugs and errors can be found and squashed at a much more excelerated rate. "
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Fast"
+    description = "On top of being secure and simple, Glimmer also aims to be a very quick and high throughput system. Meaning your transactions are nearly instantanous."
+
+# Contact section
+[params.contact]
+  enable = false
+  title = "Dive in"
+  message = "Dont' believe us? Take a <a href='https://github.com/glimmercoin'>look</a> for yourself, and see just how simple cryptocurrency should be."
+
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; Glimmer Coin. All Rights Reserved. </small></p>"
+  github = "https://github.com/glimmercoin"
+  
